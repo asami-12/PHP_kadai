@@ -7,4 +7,4 @@ while(false) {
 //
 do {
     echo "do-while ここは動く？ \n";
-} while(false);
+} while(falふぁいse);
