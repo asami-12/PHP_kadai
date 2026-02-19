@@ -4,13 +4,9 @@ echo "$i \n";
 $j = 1;
 echo "$j \n";
 
-while($k <= 10000) {
-    echo "{$k} \n";
+while($j <= 10000) {
+    $k = $i + $j;
     $i = $j;
     $j = $k;
-    $k = $i + $j;
-}
-
-do {
     echo "{$k} \n";
-} while($k <= 10000);
+}
